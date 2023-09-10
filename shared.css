@@ -1,6 +1,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 #page-logo a {
   padding: 10px;
@@ -17,10 +18,12 @@ ul {
   padding: 0;
 }
 header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 15px 60px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
 }
 header ul {
   display: flex;
